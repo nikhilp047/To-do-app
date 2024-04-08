@@ -51,6 +51,7 @@ jobs:
           tags: ${{ secrets.DOCKER_USER }}/todoapp:${{ github.sha }}
 
   update-manifest-stage:
+    name: Update the manifest file
     runs-on: ubuntu-latest
     needs: ['build-and-push-docker-image']
     steps:
