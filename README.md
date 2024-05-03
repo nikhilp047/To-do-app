@@ -1,5 +1,4 @@
 # To-do-app
-# AI Planet Devops Assignment
 
 ## Objective
 The project involves setting up a GitOps pipeline to automate the deployment and management of a simple web application. utilizing Argo CD for continuous deployment and Argo Rollouts for advanced deployment strategies within a Kubernetes environment.
